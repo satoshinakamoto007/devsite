@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:1.22
 RUN rm -rf /usr/share/nginx/html
 COPY dist /usr/share/nginx/html    
 
